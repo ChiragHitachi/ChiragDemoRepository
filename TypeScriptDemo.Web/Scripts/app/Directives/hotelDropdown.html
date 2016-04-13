@@ -1,0 +1,11 @@
+﻿
+<div>
+    <label class="control-label">Hotel</label>
+    <div class="input-group">
+        <span>
+            <select class="form-control" id="{{vm.id}}hotels" ng-model="vm.selectedHotel" ng-change="vm.onHotelChange" ng-options="hotel as hotel.name for hotel in vm.hotels">
+                <option value="0" selected hidden>Select Hotel</option>
+            </select>
+        </span>
+    </div>
+</div>

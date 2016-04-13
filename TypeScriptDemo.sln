@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TypeScriptDemo.Domain", "TypeScriptDemo.Domain\TypeScriptDemo.Domain.csproj", "{5632DA93-13C9-4CA1-94EB-C09F2441676E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{7E6DBA80-0C74-437A-87D2-429F6D48C1DD}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\packages.config = .nuget\packages.config
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TypeScriptDemo.Web", "TypeScriptDemo.Web\TypeScriptDemo.Web.csproj", "{52915E76-E66D-4D53-B527-85C00AA0A082}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5632DA93-13C9-4CA1-94EB-C09F2441676E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5632DA93-13C9-4CA1-94EB-C09F2441676E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5632DA93-13C9-4CA1-94EB-C09F2441676E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5632DA93-13C9-4CA1-94EB-C09F2441676E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{52915E76-E66D-4D53-B527-85C00AA0A082}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{52915E76-E66D-4D53-B527-85C00AA0A082}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{52915E76-E66D-4D53-B527-85C00AA0A082}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{52915E76-E66D-4D53-B527-85C00AA0A082}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
